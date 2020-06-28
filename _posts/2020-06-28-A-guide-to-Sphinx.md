@@ -4,7 +4,7 @@ title: A guide to Sphinx
 tags: [Sphinx, ReStructured-text, Markdown, Technical writing, Documentation, code]
 color: brown
 author: Shriti
-
+excerpt_separator: <!--more-->
 ---
 <html>
 <head>
@@ -25,11 +25,10 @@ author: Shriti
 </head>
 <body>
 <marquee><h2>Unleash the writer in you: Sphinx</h2></marquee>
+<!--more-->
 <br>
-excerpt_separator: <!--more-->
 Looking to combine your love for writing and code?
 <br>You're at the right place.
-<!--more-->
 <br>
 Sphinx is a mature tool used for technical documentation. Its what makes your documents look pretty and keeps your users from  getting lost in the maze of thousands of lines and hundreds of pages of code.<br> Keeping it basic, the only assumption I am making here is that you have an internet connection.
 Follow these Quick-start instructions for installing, setting up and running Sphinx.
@@ -37,7 +36,6 @@ Follow these Quick-start instructions for installing, setting up and running Sph
 <h3>How to Install?</h3>
 <br>
 Skip forward to your O.S and follow the steps to install and set up Sphinx.
-Sphinx is written in Python.
 <br><br>
 <b>Basic Requirements:</b>
 <br>
@@ -165,7 +163,7 @@ sphinx-quickstart
 {% endhighlight %}
 <br>
 <div class="zoomin">
-<img src="assets/img/quickstart.png" width="350px" alt="sphinx-quickstart">
+<img src="assets/images/quickstart.png" width="350px" alt="sphinx-quickstart">
 </div>
 <br><br>
 This will give you these newly furbished files:
@@ -182,7 +180,6 @@ The Makefile also allows you to build your document with the help of various sup
     <li> <i>index.rst</i>: A list of contents listed under the `..  toctree::`, which you will need to amend every time you add a new file to your Sphinx source folder. </li>
     </ol>
 <li> Build folder (empty) </li>
-</ul>
 <br>
 <hr>
 Now that we have the guns and the ammunition, lets fire off a new documentation site.<br>
@@ -195,7 +192,7 @@ make html
 {% endhighlight %}
 <br><br>
 <div class="zoomin">
-<img src="assets/img/make.png" width="200px" alt="make html">
+<img src="assets/images/make.png" width="200px" alt="make html">
 </div>
 
 <br>
@@ -203,37 +200,37 @@ make html
 Go to your <i>build</i> folder. You will find two folders, <i>doctree</i> and <i>html</i>, waiting for you. Open the </i>html</i> folder.
 <br>
 <div class="zoomin">
-<img src="assets/img/build.png" width="350px" alt="build file">
+<img src="assets/images/build.png" width="350px" alt="build file">
 </div>
 <br>
 
 Open the index.html file in the browser of your choice.
 <br>
 <div class="zoomin">
-<img src="assets/img/index.png" width="350px" alt="index site view">
+<img src="assets/images/index.png" width="350px" alt="index site view">
 </div>
 <br> <br>
 
-You can now populate your source folder with more files. You can use any editor, even notepad, to play around with your .rst files. Make sure to run `make html` every time you want to build and see any changes locally (on your system).
+You can now populate your source folder with more files. You can use any editor, even notepad, to play around with your .rst files. Make sure to run <i>make html>/i> every time you want to build and see any changes locally (on your system).
 <br> <br>
 
 <h3>Tips</h3>
 <br><p>
-Sphinx doesn't inherently use any customization language. This is because it is mainly used for structuring and mature documentation. This does not mean that you cannot style your document by adding colors, highlights etc.
-Adding CSS or Java script(JS) files to Sphinx is very much possible.
-In case you need to need to do some styling at a minor level, you can accomplish this even without going through the bother of setting up a separate CSS/JS file by simply adding roles to your markdown file.
-Roles act like <i><span></i> html tags.
+Sphinx doesn't inherently use any customization language. This is because it is mainly used for structuring and mature documentation. This does not mean that you cannot style your document by adding colors, highlights etc.<br>
+Adding CSS or Java script(JS) files to Sphinx is very much possible.<br>
+<br>In case you need to need to do some styling at a minor level, you can accomplish this even without going through the bother of setting up a separate CSS/JS file by simply adding roles to your markdown file.<br>
+Roles act like <i>span</i> html tags.<br>
 In this short tutorial, I have used roles to add colors to the text. This might also give you an insight to the entire building process.
 </p>
 <br>
 <br>
 <video width="400" height="280" controls>
-  <source src="assets/colored_text".mp4" type="video/mp4">
+  <source src="assets/images/colored_text".mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 <br>
-As an alternative, you can simply create/link a CSS or JS file to your `.rst` file and go crazy on the styling.
+As an alternative, you can simply create/link a CSS or JS file to your <i>.rst</i> file and go crazy on the styling.
 <br><br>
 If you are not familiar with Markdown or ReStructured language, consider the following references as your bible:
     <ul>
