@@ -4,7 +4,7 @@ title: A guide to Sphinx
 tags: [Sphinx, ReStructured-text, Markdown, Technical writing, Documentation, code]
 color: brown
 author: Shriti
-excerpt_separator: <!--more-->
+
 ---
 <html>
 <head>
@@ -26,7 +26,7 @@ excerpt_separator: <!--more-->
 <body>
 <marquee><h2>Unleash the writer in you: Sphinx</h2></marquee>
 <br>
-    
+excerpt_separator: <!--more-->
 Looking to combine your love for writing and code?
 <br>You're at the right place.
 <!--more-->
@@ -45,7 +45,8 @@ Sphinx is written in Python.
     <li> Python (3.6+) </li>
     <li> Pip tool </li>
     </ul>
-<br>
+<br><br>
+    
 <h4>Windows:</h4>
 <p>
 The most efficient way to work with Sphinx would be to install and run the Windows Subsystem for Linux (WSL).
@@ -63,6 +64,8 @@ sudo apt-get update && sudo apt-get install python3 python3-pip make git
 But for some reason, if you want to work on your Windows native version, you will have to run command prompt(cmd) or your Power shell in `administrative mode`. This is annoying and makes any errors you make harder to revert. <br>
 I am working with Power shell here but you can easily do this on cmd as well.
 </p>
+
+
 <ol>
 <li> Installing Python -
 <br>
@@ -81,8 +84,6 @@ I am working with Power shell here but you can easily do this on cmd as well.
         choco install python
         {% endhighlight %}
    <br>
-
-   </li>
  <br>
 <li> <p> Installing Pip - 
     <br>
@@ -101,36 +102,34 @@ Run:
 </code> to `PATH` environment variables. </li>
 <br>
 <li><p>Installing Sphinx - 
-<br>
+<br><br>
 {% highlight scss linenos %}
 pip install -U sphinx
 {% endhighlight %}
-<br><br>
+<br>
 To check whether Sphinx has been installed successfully, <br>
 Run:<br>
 {% highlight scss linenos %}
 sphinx-build --version
 {% endhighlight %}
 </p></li>
-
-<!--Linux--!>
+<br>
 
 <h4> Linux </h4>
 Linux operating systems usually have Python and Sphinx pre-installed. To check and install Sphinx (if needed),
 <ol>
 <li> Install the Git tool. Find instructions <a href="https://git-scm.com/">here</a>. </li> <br>
 <li> Install GNU Make. Find instructions <a href = "https://www.gnu.org/software/make/">here</a>. </li><br>
-<br>
 Follow the steps for your Linux O.S:
 <p><br><br>
 <b> Ubuntu </b>
-<br>
+<br>Run:<br>
 {% highlight scss linenos %}
 apt-get install python3-sphinx
 {% endhighlight %}
 <br>
 <b> Fedora </b>
-<br>
+<br>Run:<br>
 {% highlight scss linenos %}
 sudo dnf install python3-sphinx
 {% endhighlight %}
@@ -138,36 +137,35 @@ sudo dnf install python3-sphinx
 <b> Archlinux </b>
 <br>
 You can find the official package for Sphinx <a href = "https://www.archlinux.org/packages/community/any/python-sphinx/"> here.</a> <br>Download and install or run the following command.
-<br>
+<br>Run:<br>
 {% highlight scss linenos %}
 pacman -S python-sphinx 3.1.1-1
 {% endhighlight %}
 <br>
 <b> Anaconda </b>
-<br>
+<br>Run:<br>
 {% highlight scss linenos %}
 conda install sphinx
 {% endhighlight %}
 <br>
 </p>
-</li>
 </ol>
 <p><br>
 Congratulations! You have successfully installed Sphinx :balloon:
 </p>
-<br>
+<br><br> 
 <p>
 Now, navigate to the directory folder where you wish to run Sphinx and run the WSL application by pressing <i>Shift</i> and <i>right click</i> together. Otherwise, run cmd(Admin Mode not needed)/Git Tool(Bash).
 </p>
-<br>
+<br><br>
 Run:
 <br>
 {% highlight scss linenos %}
 sphinx-quickstart
 {% endhighlight %}
-<br><br>
+<br>
 <div class="zoomin">
-<img src="assets/img/quickstart.png" width="200px" alt="sphinx-quickstart">
+<img src="assets/img/quickstart.png" width="350px" alt="sphinx-quickstart">
 </div>
 <br><br>
 This will give you these newly furbished files:
@@ -205,14 +203,14 @@ make html
 Go to your <i>build</i> folder. You will find two folders, <i>doctree</i> and <i>html</i>, waiting for you. Open the </i>html</i> folder.
 <br>
 <div class="zoomin">
-<img src="assets/img/build.png" width="200px" alt="build file">
+<img src="assets/img/build.png" width="350px" alt="build file">
 </div>
 <br>
 
 Open the index.html file in the browser of your choice.
 <br>
 <div class="zoomin">
-<img src="assets/img/index.png" width="200px" alt="index site view">
+<img src="assets/img/index.png" width="350px" alt="index site view">
 </div>
 <br> <br>
 
@@ -243,7 +241,4 @@ If you are not familiar with Markdown or ReStructured language, consider the fol
     <li> <a href = "https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html"> reST and Sphinx Cheat Sheet</a> </li>
     <li> <a href = "https://guides.github.com/features/mastering-markdown/"> Github Markdown Primer </a> </li>
     <li> <a href = "https://rmarkdown.rstudio.com/authoring_basics.html"> Markdown Basics ~ Rstudio </a></li>
-    </ul>
-
-</body>
-</html>
+   </ul>
