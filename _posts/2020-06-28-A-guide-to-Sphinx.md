@@ -10,16 +10,16 @@ excerpt_separator: <!--more-->
 <head>
 <style type="text/css">
     .zoomin img {
-      height: 200px;
-      width: 200px;
+      height: 400px;
+      width: 4500px;
       -webkit-transition: all 2s ease;
       -moz-transition: all 2s ease;
       -ms-transition: all 2s ease;
       transition: all 2s ease;
     }
     .zoomin img:hover {
-      width: 300px;
-      height: 300px;
+      width: 6000px;
+      height: 500px;
     }
   </style>
 </head>
@@ -44,7 +44,7 @@ Skip forward to your O.S and follow the steps to install and set up Sphinx.
     <li> Pip tool </li>
     </ul>
 <br><br>
-    
+
 <h4>Windows:</h4>
 <p>
 The most efficient way to work with Sphinx would be to install and run the Windows Subsystem for Linux (WSL).
@@ -68,7 +68,7 @@ I am working with Power shell here but you can easily do this on cmd as well.
 <li> Installing Python -
 <br>
 <ul>
-<li> Download the <a href = "https://www.python.org/downloads/">python package</a> from  the official website. 
+<li> Download the <a href = "https://www.python.org/downloads/">python package</a> from  the official website.
 <br> Alternatively, if the above method fails for some reason or if you are feeling a little adventurous, you can install python using `chocolatey`. Chocolatey is     a package manager specially made for Windows which makes it easy to install packages, manage versioning, dependencies and your inventory list.
  <br> Open the windows menu with (Windows + X) and select `Windows PowerShell(Admin)`.
   <p><br>
@@ -83,7 +83,7 @@ I am working with Power shell here but you can easily do this on cmd as well.
         {% endhighlight %}
    <br>
  <br>
-<li> <p> Installing Pip - 
+<li> <p> Installing Pip -
     <br>
    <i>Pip</i> is a part of the <a href = "https://pypi.org/project/Sphinx/">Python Package Index</a> which houses Sphinx.
 Python(3+) versions have pip included as a tool. To check the existence and version of pip,
@@ -99,7 +99,7 @@ Run:
 <li> Install Make for Windows and add the following path <code> http://gnuwin32.sourceforge.net/packages/make.htm`
 </code> to `PATH` environment variables. </li>
 <br>
-<li><p>Installing Sphinx - 
+<li><p>Installing Sphinx -
 <br><br>
 {% highlight scss linenos %}
 pip install -U sphinx
@@ -149,9 +149,9 @@ conda install sphinx
 </p>
 </ol>
 <p><br>
-Congratulations! You have successfully installed Sphinx :balloon:
+Congratulations! You have successfully installed Sphinx.
 </p>
-<br><br> 
+<br><br>
 <p>
 Now, navigate to the directory folder where you wish to run Sphinx and run the WSL application by pressing <i>Shift</i> and <i>right click</i> together. Otherwise, run cmd(Admin Mode not needed)/Git Tool(Bash).
 </p>
@@ -163,7 +163,7 @@ sphinx-quickstart
 {% endhighlight %}
 <br>
 <div class="zoomin">
-<img src="assets/images/quickstart.png" width="350px" alt="sphinx-quickstart">
+<img src="/Type-on-Strap/assets/images/quickstart.png" height = "450" width="400px" alt="sphinx-quickstart">
 </div>
 <br><br>
 This will give you these newly furbished files:
@@ -174,15 +174,15 @@ The Makefile also allows you to build your document with the help of various sup
 <li> Make Windows Batch file: Unless you know what you are doing, leave this alone. </li>
 <li> Source folder:
     <ol>
-    <li> <i>_static</i> file: Holds the static files Sphinx uses to host your pages. </li>
-    <li> <i>_templates</i> file: Holds the various templates you can implement for your pages. </li>
+    <li> <i>static </i> file: Holds the static files Sphinx uses to host your pages. </li>
+    <li> <i>templates </i> file: Holds the various templates you can implement for your pages. </li>
     <li> <i>config.py</i> file : Holds configuration settings; including an option to change the theme. </li>
-    <li> <i>index.rst</i>: A list of contents listed under the `..  toctree::`, which you will need to amend every time you add a new file to your Sphinx source folder. </li>
+    <li> <i>index.rst</i>: A list of contents listed under the <i>..  toctree::</i>, which you will need to amend every time you add a new file to your Sphinx source folder. </li>
     </ol>
 <li> Build folder (empty) </li>
 <br>
 <hr>
-Now that we have the guns and the ammunition, lets fire off a new documentation site.<br>
+Now that we have the guns and the ammunition, lets fire off a new documentation site!<br>
 I am using html build here. You can alternatively use latex, linkcheck etc.<br>
 <i>make html</i> builds your file written in Markdown, HTML and ReStructured text into a static site, allowing you to view it locally before committing to the changes.<br><br>
 Run:
@@ -192,26 +192,26 @@ make html
 {% endhighlight %}
 <br><br>
 <div class="zoomin">
-<img src="assets/images/make.png" width="200px" alt="make html">
+<img src="/Type-on-Strap/assets/images/make.png" height = "600" width="500px" alt="make html">
 </div>
 
 <br>
 
-Go to your <i>build</i> folder. You will find two folders, <i>doctree</i> and <i>html</i>, waiting for you. Open the </i>html</i> folder.
-<br>
+Go to your <i>build</i> folder. You will find two folders, <i>doctree</i> and <i>html</i>, waiting for you. Open the <i>html</i> folder.
+<br><br>
 <div class="zoomin">
-<img src="assets/images/build.png" width="350px" alt="build file">
+<img src="/Type-on-Strap/assets/images/build.png" height = "600" width="500px" alt="build file">
 </div>
 <br>
 
 Open the index.html file in the browser of your choice.
-<br>
+<br><br>
 <div class="zoomin">
-<img src="assets/images/index.png" width="350px" alt="index site view">
+<img src="/Type-on-Strap/assets/images/index.png" height = "600" width="500px" alt="index site view">
 </div>
 <br> <br>
 
-You can now populate your source folder with more files. You can use any editor, even notepad, to play around with your .rst files. Make sure to run <i>make html>/i> every time you want to build and see any changes locally (on your system).
+You can now populate your source folder with more files. You can use any editor, even notepad, to play around with your .rst files. Make sure to run <i>make html</i> every time you want to build and see any changes locally (on your system).
 <br> <br>
 
 <h3>Tips</h3>
@@ -224,11 +224,10 @@ In this short tutorial, I have used roles to add colors to the text. This might 
 </p>
 <br>
 <br>
-<video width="400" height="280" controls>
-  <source src="assets/images/colored_text".mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
+<div class="zoomin">
+<iframe src="https://youtu.be/NB_DH25yAPg?controls=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="min-height: 500px;" width="100%" frameborder="0"></iframe></div>
+<br>
+Psst. If you get the following error <i>Blocked by X-Frame-Options-Policy</i> when you try to play the video on Firefox. Just install this <a href = "https://addons.mozilla.org/en-US/firefox/addon/ignore-x-frame-options-header/">addon</a>. Takes 5 seconds, I promise.<br>
 <br>
 As an alternative, you can simply create/link a CSS or JS file to your <i>.rst</i> file and go crazy on the styling.
 <br><br>
@@ -239,3 +238,8 @@ If you are not familiar with Markdown or ReStructured language, consider the fol
     <li> <a href = "https://guides.github.com/features/mastering-markdown/"> Github Markdown Primer </a> </li>
     <li> <a href = "https://rmarkdown.rstudio.com/authoring_basics.html"> Markdown Basics ~ Rstudio </a></li>
    </ul>
+
+and you're done!
+Carry on and keep writing pristine documentation.
+<br>
+~ <3

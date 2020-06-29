@@ -1,16 +1,17 @@
 # Icons on the footer
 rss: true
-email_address:    # Full email address, e.g. "sam@example.com"
+email_address: "shritichan@gmail.com"    # Full email address, e.g. "sam@example.com"
 behance:
 bitbucket:
 dribbble:
 facebook:
 flickr:
-gitlab:
-github: "sylhare"
-instagram:
+gitlab: "https://code.videolan.org/Shriti"
+github: "https://github.com/chandrashritii"
+IRC handle: "Shriti"
+instagram: "chandrashriti"
 keybase:
-linkedin:         # Full URL
+linkedin: "https://www.linkedin.com/in/shriti-chandra-3949381aa"        # Full URL
 pinterest:
 reddit:
 soundcloud:
@@ -35,6 +36,10 @@ share:
   pinterest:
   pocket:
   reddit: true
-  linkedin:
+  linkedin: true
   wordpress:
   email: true
+  github: true
+  gitlab: true
+  email_address: true
+  instagram: true
