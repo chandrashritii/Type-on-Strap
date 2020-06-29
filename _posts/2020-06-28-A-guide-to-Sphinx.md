@@ -43,9 +43,8 @@ Skip forward to your O.S and follow the steps to install and set up Sphinx.
     <li> Python (3.6+) </li>
     <li> Pip tool </li>
     </ul>
-<br><br>
-
-<h4>Windows:</h4>
+<br>
+<h3>Windows:</h3>
 <p>
 The most efficient way to work with Sphinx would be to install and run the Windows Subsystem for Linux (WSL).
 Refer to the official <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">WSL guide</a> for installation instructions.  
@@ -113,7 +112,7 @@ sphinx-build --version
 </p></li>
 <br>
 
-<h4> Linux </h4>
+<h3> Linux </h3>
 Linux operating systems usually have Python and Sphinx pre-installed. To check and install Sphinx (if needed),
 <ol>
 <li> Install the Git tool. Find instructions <a href="https://git-scm.com/">here</a>. </li> <br>
@@ -163,7 +162,7 @@ sphinx-quickstart
 {% endhighlight %}
 <br>
 <div class="zoomin">
-<img src="/Type-on-Strap/assets/images/quickstart.png" height = "450" width="400px" alt="sphinx-quickstart">
+<img src="/blog/assets/images/quickstart.png" height = "450" width="400px" alt="sphinx-quickstart">
 </div>
 <br><br>
 This will give you these newly furbished files:
@@ -192,7 +191,7 @@ make html
 {% endhighlight %}
 <br><br>
 <div class="zoomin">
-<img src="/Type-on-Strap/assets/images/make.png" height = "600" width="500px" alt="make html">
+<img src="/blog/assets/images/make.png" height = "600" width="500px" alt="make html">
 </div>
 
 <br>
@@ -200,14 +199,14 @@ make html
 Go to your <i>build</i> folder. You will find two folders, <i>doctree</i> and <i>html</i>, waiting for you. Open the <i>html</i> folder.
 <br><br>
 <div class="zoomin">
-<img src="/Type-on-Strap/assets/images/build.png" height = "600" width="500px" alt="build file">
+<img src="/blog/assets/images/build.png" height = "600" width="500px" alt="build file">
 </div>
 <br>
 
 Open the index.html file in the browser of your choice.
 <br><br>
 <div class="zoomin">
-<img src="/Type-on-Strap/assets/images/index.png" height = "600" width="500px" alt="index site view">
+<img src="/blog/assets/images/index.png" height = "600" width="500px" alt="index site view">
 </div>
 <br> <br>
 
