@@ -10,4 +10,4 @@ tags: [About, Archive]
 
 * Freshman Undergrad
 * Enthusiastic about opensource, writing, blogging and books.
-* Hit me up for collaborations and projects. I don't bite, not on a good day anyway :wink-smiley:
+* Hit me up for collaborations and projects. I don't bite, not on a good day anyway.
