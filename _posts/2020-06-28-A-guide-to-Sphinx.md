@@ -90,8 +90,7 @@ Run:
 <br>
 <li> <b>Install Git for Windows:</b> Follow the instructions <a href = "https://git-scm.com/download/win">here</a>. </li>
 <br>
-<li> <b>Install Make for Windows:</b> Follow the instructions <a href = "">here</a> and add the following path <code> http://gnuwin32.sourceforge.net/packages/make.htm`
-</code> to `PATH` environment variables. </li>
+<li> <b>Install Make for Windows:</b> Follow the instructions <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjV_J716qXqAhUPcCsKHW4zA0YQFjAAegQIARAB&url=http%3A%2F%2Fgnuwin32.sourceforge.net%2Fpackages%2Fmake.htm&usg=AOvVaw3XXTZ7sSS_Qj6kPggyGbMq">here</a> and add the following path <code> http://gnuwin32.sourceforge.net/packages/make.htm </code> to <i>PATH</i> environment variables. </li>
 <br>
       <li><p><b>Installing Sphinx:</b>
 <br><br>
@@ -155,6 +154,8 @@ Run:
 {% highlight scss linenos %}
 sphinx-quickstart
 {% endhighlight %}
+<br>
+<i><b>P.S - Hover on  the images to zoom in.</b></i>
 <br>
 <div class="zoomin">
 <img src="/blog/assets/images/quickstart.png" height = "450" width="400px" alt="sphinx-quickstart">
