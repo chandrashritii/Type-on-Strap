@@ -33,7 +33,7 @@ Looking to combine your love for writing and code?
 Sphinx is a mature tool used for technical documentation. Its what makes your documents look pretty and keeps your users from  getting lost in the maze of thousands of lines and hundreds of pages of code.<br> Keeping it basic, the only assumption I am making here is that you have an internet connection.
 Follow these Quick-start instructions for installing, setting up and running Sphinx.
 <br><hr>
-<h3>How to Install?</h3>
+<h1>How to Install?</h1>
 <br>
 Skip forward to your O.S and follow the steps to install and set up Sphinx.
 <br><br>
@@ -43,9 +43,8 @@ Skip forward to your O.S and follow the steps to install and set up Sphinx.
     <li> Python (3.6+) </li>
     <li> Pip tool </li>
     </ul>
-<br><br>
 
-<h4>Windows:</h4>
+<h2>Windows:</h2>
 <p>
 The most efficient way to work with Sphinx would be to install and run the Windows Subsystem for Linux (WSL).
 Refer to the official <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">WSL guide</a> for installation instructions.  
@@ -65,25 +64,20 @@ I am working with Power shell here but you can easily do this on cmd as well.
 
 
 <ol>
-<li> Installing Python -
+    <li> <b>Installing Python - </b>
 <br>
 <ul>
 <li> Download the <a href = "https://www.python.org/downloads/">python package</a> from  the official website.
 <br> Alternatively, if the above method fails for some reason or if you are feeling a little adventurous, you can install python using `chocolatey`. Chocolatey is     a package manager specially made for Windows which makes it easy to install packages, manage versioning, dependencies and your inventory list.
- <br> Open the windows menu with (Windows + X) and select `Windows PowerShell(Admin)`.
+    <br> Open the windows menu with (Windows + X) and select <i>Windows PowerShell(Admin)</i>.
   <p><br>
     Run:<br>
-    {% highlight scss linenos %}
-        Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString
-        ('https:/chocolatey.org/install.ps1'))
-        {% endhighlight %}
+    {% highlight scss linenos %} Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString ('https:/chocolatey.org/install.ps1')) {% endhighlight %}
    <br>
-       {% highlight scss linenos %}
-        choco install python
-        {% endhighlight %}
+{% highlight scss linenos %} choco install python {% endhighlight %}
    <br>
  <br>
-<li> <p> Installing Pip -
+      <li> <p> <b>Installing Pip -</b>
     <br>
    <i>Pip</i> is a part of the <a href = "https://pypi.org/project/Sphinx/">Python Package Index</a> which houses Sphinx.
 Python(3+) versions have pip included as a tool. To check the existence and version of pip,
@@ -94,12 +88,11 @@ Run:
  {% endhighlight %}
 </p></li>
 <br>
-<li> Install Git for Windows. Follow the instructions <a href = "https://git-scm.com/download/win">here</a>. </li>
+<li> <b>Install Git for Windows:</b> Follow the instructions <a href = "https://git-scm.com/download/win">here</a>. </li>
 <br>
-<li> Install Make for Windows and add the following path <code> http://gnuwin32.sourceforge.net/packages/make.htm`
-</code> to `PATH` environment variables. </li>
+<li> <b>Install Make for Windows:</b> Follow the instructions <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjV_J716qXqAhUPcCsKHW4zA0YQFjAAegQIARAB&url=http%3A%2F%2Fgnuwin32.sourceforge.net%2Fpackages%2Fmake.htm&usg=AOvVaw3XXTZ7sSS_Qj6kPggyGbMq">here</a> and add the following path <code> http://gnuwin32.sourceforge.net/packages/make.htm </code> to <i>PATH</i> environment variables. </li>
 <br>
-<li><p>Installing Sphinx -
+      <li><p><b>Installing Sphinx:</b>
 <br><br>
 {% highlight scss linenos %}
 pip install -U sphinx
@@ -113,7 +106,7 @@ sphinx-build --version
 </p></li>
 <br>
 
-<h4> Linux </h4>
+<h2>Linux</h2>
 Linux operating systems usually have Python and Sphinx pre-installed. To check and install Sphinx (if needed),
 <ol>
 <li> Install the Git tool. Find instructions <a href="https://git-scm.com/">here</a>. </li> <br>
@@ -162,8 +155,10 @@ Run:
 sphinx-quickstart
 {% endhighlight %}
 <br>
+<i><b>P.S - Hover on  the images to zoom in.</b></i>
+<br>
 <div class="zoomin">
-<img src="/Type-on-Strap/assets/images/quickstart.png" height = "450" width="400px" alt="sphinx-quickstart">
+<img src="/blog/assets/images/quickstart.png" height = "450" width="400px" alt="sphinx-quickstart">
 </div>
 <br><br>
 This will give you these newly furbished files:
@@ -192,7 +187,7 @@ make html
 {% endhighlight %}
 <br><br>
 <div class="zoomin">
-<img src="/Type-on-Strap/assets/images/make.png" height = "600" width="500px" alt="make html">
+<img src="/blog/assets/images/make.png" height = "600" width="500px" alt="make html">
 </div>
 
 <br>
@@ -200,21 +195,21 @@ make html
 Go to your <i>build</i> folder. You will find two folders, <i>doctree</i> and <i>html</i>, waiting for you. Open the <i>html</i> folder.
 <br><br>
 <div class="zoomin">
-<img src="/Type-on-Strap/assets/images/build.png" height = "600" width="500px" alt="build file">
+<img src="/blog/assets/images/build.png" height = "600" width="500px" alt="build file">
 </div>
 <br>
 
 Open the index.html file in the browser of your choice.
 <br><br>
 <div class="zoomin">
-<img src="/Type-on-Strap/assets/images/index.png" height = "600" width="500px" alt="index site view">
+<img src="/blog/assets/images/index.png" height = "600" width="500px" alt="index site view">
 </div>
 <br> <br>
 
 You can now populate your source folder with more files. You can use any editor, even notepad, to play around with your .rst files. Make sure to run <i>make html</i> every time you want to build and see any changes locally (on your system).
 <br> <br>
 
-<h3>Tips</h3>
+<h2>Tips</h2>
 <br><p>
 Sphinx doesn't inherently use any customization language. This is because it is mainly used for structuring and mature documentation. This does not mean that you cannot style your document by adding colors, highlights etc.<br>
 Adding CSS or Java script(JS) files to Sphinx is very much possible.<br>
@@ -225,7 +220,9 @@ In this short tutorial, I have used roles to add colors to the text. This might 
 <br>
 <br>
 <div class="zoomin">
-<iframe src="https://youtu.be/NB_DH25yAPg?controls=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="min-height: 500px;" width="100%" frameborder="0"></iframe></div>
+<iframe width="100%" height="500px" src="https://youtube.com/embed/videoseries?list=PLhfB6D0VRzHwWkuDGNbBTpbtOPuWmemAz" frameborder="0" allow="encrypted-media" allowfullscreen>
+</iframe>
+ </div>   
 <br>
 Psst. If you get the following error <i>Blocked by X-Frame-Options-Policy</i> when you try to play the video on Firefox. Just install this <a href = "https://addons.mozilla.org/en-US/firefox/addon/ignore-x-frame-options-header/">addon</a>. Takes 5 seconds, I promise.<br>
 <br>
