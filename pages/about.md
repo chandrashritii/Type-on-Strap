@@ -2,11 +2,11 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/search-map.jpeg"
+feature-img: "assets/img/pexels/pic1.jpg"
 tags: [About, Archive]
 ---
 
-<b>Shriti Chandra</b>
+# Shriti Chandra
 
 * Freshman Undergrad
 * Enthusiastic about opensource, writing, blogging and books.
