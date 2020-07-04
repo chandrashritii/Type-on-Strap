@@ -3,8 +3,8 @@ baseurl: "/blog"
 url: "https://chandrashritii.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Home                      # site's title
-description: "Techblog"      # used by search engines
+title: Shriti Chandra                     # site's title
+description: "Tech Blog"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
