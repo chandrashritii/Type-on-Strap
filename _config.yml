@@ -2,6 +2,7 @@
 baseurl: "/blog"
 url: "https://chandrashritii.github.io"
 
+
 # THEME-SPECIFIC CONFIGURATION
 title: Shriti Chandra                     # site's title
 description: "Tech Blog"      # used by search engines
