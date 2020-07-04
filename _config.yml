@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/blog"
+baseurl: ""
 url: "https://chandrashritii.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
