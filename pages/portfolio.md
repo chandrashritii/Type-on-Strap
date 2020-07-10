@@ -44,5 +44,8 @@ My contributions have included revamping, re-styling, and/or writing the followi
 <br>
 * Added a description of one of the recently launched projects under Layer5, Image hub. Merged [here](https://github.com/layer5io/layer5/pull/450).
 <br><br>
-
+* Other list of PR's - 
+      - [#1179](https://github.com/layer5io/meshery/pull/1179) - Added installation instructions for cloud cluster services (GKE  and  EKS)
+      - [#1209](https://github.com/layer5io/meshery/pull/1209) - Added to an inventory of adapters used by Meshery, a project under Layer5.
+      - [#464](https://github.com/layer5io/layer5/pull/464) - Added a blog post to the Layer5 official site.
 <hr>
