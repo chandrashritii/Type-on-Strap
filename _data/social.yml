@@ -9,7 +9,7 @@ flickr:
 gitlab: "https://code.videolan.org/Shriti"
 github: "chandrashritii"
 IRC handle: "Shriti"
-instagram: "chandrashriti"
+instagram: 
 keybase:
 linkedin: "https://www.linkedin.com/in/shriti-chandra-3949381aa"        # Full URL
 pinterest:
@@ -42,4 +42,4 @@ share:
   github: true
   gitlab: true
   email_address: true
-  instagram: 
+  instagram: false
