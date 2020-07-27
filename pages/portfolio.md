@@ -49,7 +49,7 @@ My contributions have included:
 * Other list of PR's - <br>
       1. [#1179](https://github.com/layer5io/meshery/pull/1179) - Added installation instructions for cloud cluster services (GKE  and  EKS)<br>
       2. [#1209](https://github.com/layer5io/meshery/pull/1209) - Added to an inventory of adapters used by Meshery, a project under Layer5.<br>
-      3. [#1251](https://github.com/layer5io/meshery/pull/1251) - Update ddocumentation on adapters. <br>
+      3. [#1251](https://github.com/layer5io/meshery/pull/1251) - Updated documentation on adapters. <br>
       3. Blog posts -
      * [#464](https://github.com/layer5io/layer5/pull/464) 
      * [#484](https://github.com/layer5io/layer5/pull/484)
