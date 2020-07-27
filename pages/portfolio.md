@@ -18,8 +18,8 @@ Growing up learning about new technologies, new languages and volunteering for a
 <br>
 <br>
 ## EXPERIENCE
-### Opensource
-### VLC (VideoLAN)
+#### Opensource
+#### VLC (VideoLAN)
 <br>
 *May 2020 - PRESENT*
 <br>
@@ -31,12 +31,14 @@ I have worked with the VideoLan community on migrating and rewriting the [VLC 3.
 
 <br>
 
-### Layer5:
+#### Layer5:
 <br>
 *June 2020 - PRESENT*
 <br>
 I am an active open source contributor and member of the Layer5 community, which is a SMI network analysis platform, under the umbrella organization, Cloud Native Computing Foundation (CNCF).<br>
-My contributions have included revamping, re-styling, and/or writing the following pages using Jekyll, Markdown, HTML and CSS:
+My contributions have included:
+
+1. <b> Revamping, re-styling, and/or writing the following pages using Jekyll, Markdown, HTML and CSS: </b>
 <br>
 * Propagated info on the MeshMates Program, an onboarding welcome program initiated by the  Layer5 community. This involved getting to know the members of the community and doing research to figure out how the program  worked and updating all the appropriate documents. Merged [here](https://github.com/layer5io/meshery/pull/1176).
 <br>
@@ -47,5 +49,17 @@ My contributions have included revamping, re-styling, and/or writing the followi
 * Other list of PR's - <br>
       1. [#1179](https://github.com/layer5io/meshery/pull/1179) - Added installation instructions for cloud cluster services (GKE  and  EKS)<br>
       2. [#1209](https://github.com/layer5io/meshery/pull/1209) - Added to an inventory of adapters used by Meshery, a project under Layer5.<br>
-      3. [#464](https://github.com/layer5io/layer5/pull/464) - Added a blog post to the Layer5 official site.<br><br>
+      3. [#1251](https://github.com/layer5io/meshery/pull/1251) - Update ddocumentation on adapters. <br>
+      3. Blog posts -
+     * [#464](https://github.com/layer5io/layer5/pull/464) 
+     * [#484](https://github.com/layer5io/layer5/pull/484)
+     * [#485](https://github.com/layer5io/layer5/pull/485)
+     * [#486](https://github.com/layer5io/layer5/pull/486)
+     * [#487](https://github.com/layer5io/layer5)
+     * [#488](https://github.com/layer5io/layer5)
+
+2. <b> Creating the Service Mesh Performance Specification (SMPS) project site from scratch: </b>
+<br>
+* PR Merged [here](https://github.com/layer5io/service-mesh-performance-specification/pull/57). The live site can be found [here](https://chandrashritii.github.io/service-mesh-performance-specification/).
+
 <hr>
