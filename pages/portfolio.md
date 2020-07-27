@@ -13,9 +13,9 @@ tags: [Portfolio, Archive]
 ## TECHNICAL WRITING PORTFOLIO
 <br>
 Hello! My name is Shriti Chandra. I’m a freshman doing my undergrad degree in engineering.<br>
-Welcome to my technical writing portfolio. I’m a diverse writer based in India. I am  majorly interested in technology and its implications. I have been working with open source organizations, contributing to their documentation and on my blog.<br>
-Growing up learning about new technologies, new languages and volunteering for a variety of causes really sparked my interest for story telling and giving back to the community.
-<br>
+Welcome to my portfolio. I’m a diverse writer based in India. I am  majorly interested in technology and its implications. 
+Growing up learning about new technologies, new languages and volunteering for a variety of causes really sparked my interest for story telling and giving back to the community.<br>
+I have been working with open source organizations, contributing to their documentation and code. I have also been working on writing technical blog posts on technologies that I have worked with and am well versed in. Check out [A guide to Sphinx.](https://chandrashritii.github.io/blog/2020/06/28/A-guide-to-Sphinx.html)<br>
 <br>
 ## EXPERIENCE
 #### Opensource
