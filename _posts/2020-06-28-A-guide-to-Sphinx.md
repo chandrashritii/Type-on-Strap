@@ -155,8 +155,8 @@ Run:
 sphinx-quickstart
 {% endhighlight %}
 <br>
-<i><b>P.S - Hover on  the images to zoom in.</b></i>
-<br>
+<i>P.S - Hover on  the images to zoom in.</i>
+<br><br>
 <div class="zoomin">
 <img src="/blog/assets/images/quickstart.png" height = "450" width="400px" alt="sphinx-quickstart">
 </div>
@@ -213,7 +213,7 @@ You can now populate your source folder with more files. You can use any editor,
 <br><p>
 Sphinx doesn't inherently use any customization language. This is because it is mainly used for structuring and mature documentation. This does not mean that you cannot style your document by adding colors, highlights etc.<br>
 Adding CSS or Java script(JS) files to Sphinx is very much possible.<br>
-<br>In case you need to need to do some styling at a minor level, you can accomplish this even without going through the bother of setting up a separate CSS/JS file by simply adding roles to your markdown file.<br>
+<br>In case you need to do some styling at a minor level, you can accomplish this even without going through the bother of setting up a separate CSS/JS file by simply adding roles to your markdown file.<br>
 Roles act like <i>span</i> html tags.<br>
 In this short tutorial, I have used roles to add colors to the text. This might also give you an insight to the entire building process.
 </p>
