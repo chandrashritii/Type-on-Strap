@@ -60,4 +60,5 @@ My contributions have included:
 
 2. <b> Creating the Service Mesh Performance Specification (SMPS) project site from scratch: </b>
 <br>
-* PR Merged [here](https://github.com/layer5io/service-mesh-performance-specification/pull/57). The live site can be found [here](https://chandrashritii.github.io/service-mesh-performance-specification/).
+* The live site can be found [here](https://smp-spec.io/). PR's merged 
+     * [#57](https://github.com/layer5io/service-mesh-performance-specification/pull/57)
