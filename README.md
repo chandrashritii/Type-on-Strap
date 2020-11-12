@@ -1,2 +1,5 @@
-**Shriti Chandra** - *Personal Blog*
-Shriti Ishika roommates
+**Shriti Chandra**
+
+_Personal Blog_
+
+xx
